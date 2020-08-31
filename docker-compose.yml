@@ -6,7 +6,8 @@ services:
     stdin_open: true
     tty: true
     environment:
-      - MONGO_URL=mongodb://root:password@db:27017
+      - DB_NAME=cli_demo
+      - MONGO_URL=mongodb://root:pass@db:27017
     command: /bin/bash
     entrypoint: ['/bin/bash', '/app/docker-compose-entrypoint.sh']
     volumes:
