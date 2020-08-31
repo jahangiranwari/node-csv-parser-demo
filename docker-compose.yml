@@ -6,5 +6,6 @@ services:
     stdin_open: true
     tty: true
     command: /bin/bash
+    entrypoint: ['/bin/bash', '/app/docker-compose-entrypoint.sh']
     volumes:
       - .:/app
