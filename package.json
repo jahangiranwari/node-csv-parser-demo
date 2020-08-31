@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jahangiranwari/node-csv-parser-demo#readme",
   "dependencies": {
-    "csv-parser": "^2.3.0"
+    "csv-parser": "^2.3.0",
+    "mongodb": "^3.6.0"
   }
 }
